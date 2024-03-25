@@ -1,4 +1,4 @@
-from ..jenga.basis import TabularCorruption 
+from jenga.basis import TabularCorruption 
 import duckdb
 from pandas import DataFrame
 

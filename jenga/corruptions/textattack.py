@@ -1,4 +1,4 @@
-from ..jenga.basis import TabularCorruption
+from jenga.basis import TabularCorruption
 
 from textattack.transformations import Transformation, CompositeTransformation
 from textattack.constraints import PreTransformationConstraint
