@@ -1,3 +1,3 @@
-from .duckdb import DuckDBCorruptionBrokenCharacters
-from .textattack import TextAttackCorruption
+from .duckdb import DuckDBCorruptionBrokenCharacters, DuckDBCorruptionWordDeletion
+from .textattack import TextAttackCorruption, TextAttackThroughDuckDBCorruption
 from .text import BrokenCharacters
