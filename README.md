@@ -23,3 +23,9 @@ conda create -n DP python=3.9 -y
 conda install -n DP ipykernel --update-deps --force-reinstall -y
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
 ```
+
+### Analysis
+For the analysis part, use this command to install the model package:
+```
+python -m spacy download en_core_web_md
+```
