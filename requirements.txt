@@ -6,3 +6,6 @@ textblob
 pyspellchecker
 torch
 transformers
+tqdm
+nltk
+spacy
